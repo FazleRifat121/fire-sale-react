@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 const TextAnimation = () => {
   const bannerRef = useRef(null);
   let i = 0;
-  const speed = 50;
+  const speed = 20;
   const text = `Fed up with living out of a suitcase <br>
                   and waiting endlessly for home repairs?`;
 
